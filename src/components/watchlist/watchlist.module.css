@@ -1,0 +1,221 @@
+.atas{
+    background: var(--color-white);
+    position: fixed;
+    height: 4.5rem;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    z-index: 1;
+    padding: 1rem;
+}
+
+.atas h1 {
+    font-size: 1.7rem;
+    font-family: var(--font-base);
+    color: var(--color-orange);
+    position: absolute;
+    left: 0;
+    right: 0;
+
+    text-align: center;
+}
+
+/* .atas img {
+    position: absolute;
+    left: 0;
+    right: 0;
+    margin-left: auto;
+    margin-right: auto; 
+    width: 11rem;
+} */
+
+.atas > div {
+    width: 1.7rem;
+}
+
+.grey {
+    color: var(--color-grey-1);
+}
+
+
+
+.konten {
+    position: relative; 
+    top: 4.5rem;
+}
+
+
+.saham {
+    text-decoration: none;
+    background-color: var(--color-white);
+    width: 100%;
+    height: 4.1rem;
+    border: 1px;
+    display: flex;
+    align-items: center;
+    border-bottom: 1px solid var(--color-grey-1);
+    justify-content: space-between;
+    padding: 0 1rem;
+}
+
+.saham .kiri {
+    display: flex;
+    width: 60%;
+}
+
+.saham .kiri > img {
+    width: 45px;
+    height: 45px;
+    border-radius: 100%;
+}
+
+.kodesaham {
+    margin-left: .5rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.kodesaham span:nth-child(1){
+    color: var(--color-black);
+    font-weight: 600;
+}
+
+.kodesaham span:nth-child(2){
+    color: var(--color-grey-2);
+    font-size: .8rem;
+    font-weight: 600;
+}
+
+.harga{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-end;
+    width: 5.5rem;
+}
+
+.harga span:nth-child(1){
+    color: var(--color-black);
+    font-weight: 600;
+}
+
+.harga span:nth-child(2){
+    font-size: 13px;
+    
+}
+
+.editsaham {
+    height: 2.6rem;
+    background: var(--color-white);
+    align-items: center;
+    display: flex;
+    padding: 0 1rem;
+    justify-content: space-between;
+    border-bottom: 1px solid var(--color-grey-1);
+    font-weight: 600;
+}
+
+
+.flex {
+    display: flex;
+}
+
+.flex > span {
+    margin-right: .1rem;
+}
+
+.candlestick{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+}
+
+/* Total Width 70% */
+
+.green{
+    color: var(--color-green);
+}
+
+.red{
+    color: var(--color-red);
+}
+
+.abu {
+    color: var(--color-grey-2);
+}
+
+.backAbu{
+    background-color: var(--color-grey-2);
+}
+
+.backGreen{
+    background-color: var(--color-green);
+}
+
+.backRed{
+    background-color: var(--color-red);
+}
+
+.stick1{
+    width: 1.5px;
+    height: 20%;
+}
+
+.stick2{
+    width: 14px;
+    height: 40%;
+}
+
+.stick3{
+    width: 1.5px;
+    height: 10%;
+}
+
+.popup_watchlist {
+    background-color: var(--color-grey-1);
+    border-top-left-radius: 1.5rem;
+    border-top-right-radius: 1.5rem;
+    width: 100%;
+    height: 77%;
+    position: fixed;
+    bottom: 0;
+    z-index: 100;
+}
+
+.popatas {
+    border-bottom: 1px solid var(--color-grey-2);
+    padding: 1rem 1.2rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.popatas > span {
+    font-weight: 600;
+}
+
+.popbawah {
+    padding: 0rem 2rem;
+    display: flex;
+    flex-direction: column;
+}
+
+.popbawah > div {
+    display: flex;
+    border-bottom: 1px solid var(--color-grey-2);
+
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem 0;
+}
+
+.popbawah > div > span {
+}
+
+.aktifkanPopup {
+    display: none;
+}
