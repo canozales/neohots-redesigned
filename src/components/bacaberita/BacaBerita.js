@@ -23,7 +23,11 @@ const BacaBerita = () => {
       </div>
 
       <div className={styles.konten}>
-        <iframe className={styles.frame} src={location.state.data} />
+        <iframe
+          title='Konten Berita'
+          className={styles.frame}
+          src={location.state.data}
+        />
       </div>
     </div>
   );

@@ -32,31 +32,31 @@ const dataNavbar = [
 const Navbar = ({ tulisan, icon, path, indexAktif, setIndexAktif }) => {
   return (
     <Link onClick={() => setIndexAktif(icon)} className='bawahkonten' to={path}>
-      {icon == 0 && (
+      {icon === 0 && (
         <IoMdGlasses
           color={icon === indexAktif ? '#74DEB7' : '#959595'}
           fontSize={27}
         />
       )}
-      {icon == 1 && (
+      {icon === 1 && (
         <ImNewspaper
           color={icon === indexAktif ? '#74DEB7' : '#959595'}
           fontSize={27}
         />
       )}
-      {icon == 2 && (
+      {icon === 2 && (
         <AiOutlineSearch
           color={icon === indexAktif ? '#74DEB7' : '#959595'}
           fontSize={27}
         />
       )}
-      {icon == 3 && (
+      {icon === 3 && (
         <IoChatbubblesOutline
           color={icon === indexAktif ? '#74DEB7' : '#959595'}
           fontSize={27}
         />
       )}
-      {icon == 4 && (
+      {icon === 4 && (
         <GiWallet
           color={icon === indexAktif ? '#74DEB7' : '#959595'}
           fontSize={27}

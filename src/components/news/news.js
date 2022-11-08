@@ -101,6 +101,7 @@ const News = () => {
             ) {
               return val;
             }
+            return false;
           })
           .map((x) => (
             <Kartu

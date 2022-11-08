@@ -1,6 +1,6 @@
 import React from 'react';
 import { IoIosSearch } from 'react-icons/io';
-import { AiOutlineRight, AiOutlineLeft } from 'react-icons/ai';
+import { AiOutlineRight } from 'react-icons/ai';
 import styles from './search.module.css';
 import data from './datasaham';
 import DaftarSaham from './DaftarSaham';
@@ -303,6 +303,7 @@ const Search = () => {
               ) {
                 return val;
               }
+              return false;
             })
             .map((val) => (
               <Link to={`/detail/${val.kode}`} className={styles.flexx1}>
