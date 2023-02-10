@@ -69,8 +69,8 @@ const Kartu = (props) => {
 const News = () => {
   const sidebarToggle = React.useContext(ThemeContext);
   const setSidebarToggle = React.useContext(ThemeUpdateContext);
-
   const [nilaiFilter, setNilaiFilter] = React.useState('');
+
   return (
     <div className='container con1'>
       <div className={styles.atas}>

@@ -12,6 +12,7 @@ import { ThemeContext, ThemeUpdateContext } from '../../App';
 import { MdOutlineSecurity, MdOutlinePrivacyTip } from 'react-icons/md';
 import gambar from '../../assets/budi.jpg';
 import { IoIosSearch } from 'react-icons/io';
+
 const Elemen = (props) => (
   <div className={style.options}>
     <div>

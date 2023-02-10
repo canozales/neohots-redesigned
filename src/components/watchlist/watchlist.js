@@ -68,6 +68,7 @@ const Watchlist = () => {
           />
         ))}
       </div>
+
       {toggle ? (
         <div
           className={`${styles.popup_watchlist} animate__animated animate__rotateIn`}

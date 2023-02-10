@@ -8,6 +8,7 @@ import datasaham from '../watchlist/datasaham.js';
 import { Link } from 'react-router-dom';
 import { RiBarChartHorizontalLine } from 'react-icons/ri';
 import { ThemeContext, ThemeUpdateContext } from '../../App';
+
 const dataMarket = [
   {
     satu: 'NIKKEI 225',

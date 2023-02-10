@@ -53,7 +53,6 @@ const dataElemenSaham = [
     gambar: gambar1,
   },
 ];
-
 const ElemenSaham = (props) => (
   <Link to={`/detail/${props.kode}`} className={props.styles.portoSaham}>
     <div className={props.styles.flex}>

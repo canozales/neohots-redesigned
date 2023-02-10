@@ -50,6 +50,7 @@ const DetailSaham = () => {
   );
 
   const [slideAktif, setSlideAktif] = React.useState(0);
+
   const dataSlide = [
     'ORDERBOOK',
     'FINANCIAL',
